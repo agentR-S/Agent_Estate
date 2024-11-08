@@ -12,8 +12,8 @@ API_VERSION = "turbo-2024-04-09"
 AZURE_SPEECH_KEY = "9Q1WW4Yq1xT02vn0cfPcoVAebOzXVovl3kpWYsoDZrlkbQaG7e5DJQQJ99AKACYeBjFXJ3w3AAAAACOGjlBy"
 AZURE_SPEECH_ENDPOINT = "https://eastus.stt.speech.microsoft.com"
 
-# Rasa Configuration
-RASA_ENDPOINT = "http://127.0.0.1:4040"  # Update this if Rasa is hosted elsewhere
+# Replace this with your ngrok URL
+rasa_url = "https://7d5e-193-205-25-67.ngrok-free.app/webhooks/rest/webhook"
 
 # Function for Azure Speech-to-Text
 def azure_speech_to_text(audio_data):
