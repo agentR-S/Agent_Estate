@@ -4,13 +4,13 @@ import requests
 import json
 
 # Azure Configuration
-AZURE_OPENAI_API_KEY = "your_openai_api_key"
-AZURE_OPENAI_ENDPOINT = "https://<your-resource-name>.openai.azure.com/"
-OPENAI_DEPLOYMENT_ID = "gpt-4o-realtime-preview"
-API_VERSION = "2024-10-01"
+AZURE_OPENAI_API_KEY = "F4w0ncKnEKn54ox577yHf11Cn3fil3qP4RYl6DGizFGglot7Fv6hJQQJ99AJACYeBjFXJ3w3AAABACOGCl1Q"
+AZURE_OPENAI_ENDPOINT = "https://agenta.openai.azure.com/"
+OPENAI_DEPLOYMENT_ID = "gpt-4"
+API_VERSION = "turbo-2024-04-09"
 
-AZURE_SPEECH_KEY = "your_speech_to_text_api_key"
-AZURE_SPEECH_ENDPOINT = "https://<your-speech-region>.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1"
+AZURE_SPEECH_KEY = "9Q1WW4Yq1xT02vn0cfPcoVAebOzXVovl3kpWYsoDZrlkbQaG7e5DJQQJ99AKACYeBjFXJ3w3AAAAACOGjlBy"
+AZURE_SPEECH_ENDPOINT = "https://eastus.stt.speech.microsoft.com"
 
 # Rasa Configuration
 RASA_ENDPOINT = "http://localhost:5005/webhooks/rest/webhook"  # Update this if Rasa is hosted elsewhere
