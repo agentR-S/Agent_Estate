@@ -13,7 +13,7 @@ AZURE_SPEECH_KEY = "9Q1WW4Yq1xT02vn0cfPcoVAebOzXVovl3kpWYsoDZrlkbQaG7e5DJQQJ99AK
 AZURE_SPEECH_ENDPOINT = "https://eastus.stt.speech.microsoft.com"
 
 # Rasa Configuration
-RASA_ENDPOINT = "http://localhost:5005/webhooks/rest/webhook"  # Update this if Rasa is hosted elsewhere
+RASA_ENDPOINT = "http://127.0.0.1:4040"  # Update this if Rasa is hosted elsewhere
 
 # Function for Azure Speech-to-Text
 def azure_speech_to_text(audio_data):
